@@ -1,2 +1,13 @@
 # Auto detect text files and perform LF normalization
 * text=auto
+Binaries filter=lfs diff=lfs merge=lfs -text
+Intermediate filter=lfs diff=lfs merge=lfs -text
+README.md filter=lfs diff=lfs merge=lfs -text
+Source filter=lfs diff=lfs merge=lfs -text
+Config filter=lfs diff=lfs merge=lfs -text
+Content filter=lfs diff=lfs merge=lfs -text
+ConwayGameLife.sln filter=lfs diff=lfs merge=lfs -text
+ConwayGameLife.uproject filter=lfs diff=lfs merge=lfs -text
+DerivedDataCache filter=lfs diff=lfs merge=lfs -text
+Saved filter=lfs diff=lfs merge=lfs -text
+Intermediate/Build/Win64/x64/ConwayGameLifeEditor/Development/Engine/SharedPCH.Engine.Cpp20.h.pch filter=lfs diff=lfs merge=lfs -text
